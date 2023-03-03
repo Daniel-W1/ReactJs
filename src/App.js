@@ -1,18 +1,15 @@
-import './App.css';
+import Navbar from './Navbar';
+import Home from './Home';
 
 function App() {
   return (
     <div className="App">
-      <h1>App component</h1>
+      <Navbar />
+      <div className="content">
+        <Home />
+      </div>
     </div>
   );
 }
-// now let's learn about react comps 
-// so the func names has to start with capital letters 
-// we are using jsx that will be compiled to html using  babble
 
 export default App;
-
-// don't forget to export all the comps
-// we probably use them else where
-
